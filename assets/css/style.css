@@ -16,6 +16,7 @@ header {
     background-color: white;
     color: white;
     border-bottom: solid 1.5px #cccccc;
+    z-index: 1;
 }
 
 .name {
@@ -29,6 +30,7 @@ header {
     font-weight: bolder;
     color: white;
 }
+
 
 .topnav {
     overflow: hidden;
@@ -83,7 +85,7 @@ p {
 }
 
 .outerbox {
-    margin: 100px 150px 20px 150px;
+    margin: 100px 150px 50px 150px;
     padding: 0 30px 0 30px;
     background-color: #ffffff;
     border: solid 1px #dddddd;
@@ -189,58 +191,48 @@ footer {
     border-top: solid 8px #4aaaa5;
 }
 
-/*
-@media only screen and (max-width: 768px) {
-    /* For mobile phones:
-    [class*="col-"] {
-      width: 100%;
+
+
+/* xs devices (portrait phones) 
+@media screen and (max-width: 480px)
+*/
+
+/* sm devices (landscape phones)
+@media screen and (max-width: 768px) {
+.navbar-toggler {
+        display: none;
     }
+
+.wrapper {
+    width: 700px;
+}
+
+.name {
+    float: none;
+}
+
+.navbar {
+    background-color: #4aaaa5;
+}
 }
 */
 
+/* md devices (tablets)
+@media screen and (max-width: 992px) {
 
-/*
-@media only screen and (max-width: 768px) {
-    /* For mobile phones:
-    [topnav="col-md-12"] {
-    width: 100%;
+}
+*/
+
+/* lg devices (desktops) 
+@media screen and (max-width: 1200px) {
+    .name {
+        display: block;
+    }
+
+    .wrapper {
+        min-height: 100%;
+        margin-bottom: -20px;
+        width: 1000px;
     }
 }
-
-
-/* xs devices (portrait phones) */
-/*
-@media (max-width: 575px) {
-
-.wrapper {
-    width: 400px;
-}
-}
-
-/* sm devices (landscape phones) */
-/*
-@media (min-width: 576px) {
-
-.wrapper {
-    width: 420px;
-}
-}
-
-/* md devices (tablets) */
-/*
-@media (max-width: 991px) {
-
-.wrapper {
-    width: 800px;
-}
-}
-
-/* lg devices (desktops) */
-/*
-@media (max-width: 1199px) {
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -20px;
-}
-}
+*/
