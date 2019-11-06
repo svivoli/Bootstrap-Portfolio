@@ -15,7 +15,7 @@ header {
     right: 0;
     background-color: white;
     color: white;
-    border-bottom: solid 1.5px #cccccc;
+    border-bottom: solid 2px #cccccc;
     z-index: 1;
 }
 
@@ -23,7 +23,7 @@ header {
     position: fixed;
     float: left;
     padding: 30px 25px 5px 25px;
-    margin-left: 135px;
+    margin: 0 0 0 135px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 13px;
@@ -36,7 +36,7 @@ header {
     overflow: hidden;
     height: 100%;
     padding: 15px 20px 0px 20px;
-    margin-left: 1025px;
+    margin-left: 75%;
     background-color: white;
     color: #cccccc;
 }
@@ -51,7 +51,7 @@ header {
     border-right: 1px solid #dddddd;
 }
 
-.topnav a:first-of-type {
+.topnav a:last-of-type {
     border-right: none;
 }
 
@@ -86,7 +86,7 @@ p {
 
 .outerbox {
     margin: 100px 150px 50px 150px;
-    padding: 0 30px 0 30px;
+    padding: 0 30px 20px 30px;
     background-color: #ffffff;
     border: solid 1px #dddddd;
     line-height: 150%;
@@ -169,10 +169,10 @@ textarea {
     overflow: auto;
 }
 
-.wrapper {
+/* .wrapper {
     min-height: 100%;
     margin-bottom: -20px;
-}
+} */
 
 .footer,
 .push {
@@ -193,46 +193,197 @@ footer {
 
 
 
-/* xs devices (portrait phones) 
-@media screen and (max-width: 480px)
-*/
+/* xs devices (portrait phones) */
+@media screen and (max-width: 375px) {
 
-/* sm devices (landscape phones)
-@media screen and (max-width: 768px) {
-.navbar-toggler {
-        display: none;
+    .wrapper, .outerbox {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
-.wrapper {
-    width: 700px;
-}
-
-.name {
-    float: none;
-}
-
-.navbar {
-    background-color: #4aaaa5;
-}
-}
-*/
-
-/* md devices (tablets)
-@media screen and (max-width: 992px) {
-
-}
-*/
-
-/* lg devices (desktops) 
-@media screen and (max-width: 1200px) {
     .name {
-        display: block;
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        left: 0;
+        text-align: center;
+        z-index: 0;
     }
+
+    .navbar {
+        width: 100%;
+        background-color: #4aaaa5;
+    }
+
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    .topnav {
+        margin-left: 1%;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a {
+        z-index: 2;
+        border-right: none;
+        border-bottom: solid 1px #777777;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a:last-of-type {
+        border-bottom: none;
+    }
+
+    header {
+        background-color: #4aaaa5!important;
+    }
+
+    #caption {
+        width: 100%;
+    }
+}
+
+
+/* sm devices (landscape phones) */
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 750px;
+    }
+
+    .name {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        z-index: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #4aaaa5;
+    }
+
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    .topnav {
+        margin-left: 1%;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a {
+        z-index: 2;
+        border-right: none;
+        border-bottom: solid 1px #777777;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a:last-of-type {
+        border-bottom: none;
+    }
+
+    header {
+        background-color: #4aaaa5!important;
+    }
+
+    #caption {
+        line-height: 100%;
+        width: 150px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+}
+
+
+/* md devices (tablets) */
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+
+    .name {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        z-index: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #4aaaa5;
+    }
+
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    .topnav {
+        margin-left: 1%;
+        margin-top: 15%;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a {
+        z-index: 2;
+        border-right: none;
+        border-bottom: solid 1px #777777;
+        background-color: #4aaaa5;
+    }
+
+    .topnav a:last-of-type {
+        border-bottom: none;
+    }
+
+    header {
+        background-color: #4aaaa5!important;
+    }
+
+    #caption {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* lg devices (desktops)  */
+@media screen and (max-width: 1200px) {
 
     .wrapper {
         min-height: 100%;
         margin-bottom: -20px;
-        width: 1000px;
+    }
+
+    .img-fluid {
+        width: 100%;
+    }
+
+    #caption {
+        width: 100%;
+        text-align: center;
     }
 }
-*/
