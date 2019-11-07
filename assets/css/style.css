@@ -19,6 +19,11 @@ header {
     z-index: 1;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -20px;
+}
+
 .name {
     position: fixed;
     float: left;
@@ -169,11 +174,6 @@ textarea {
     overflow: auto;
 }
 
-/* .wrapper {
-    min-height: 100%;
-    margin-bottom: -20px;
-} */
-
 .footer,
 .push {
     height: 20px;
@@ -248,7 +248,7 @@ footer {
 }
 
 
-/* sm devices (landscape phones, small tablets) */
+/* sm-md devices (landscape phones, small tablets) big jump here but it works! */
 @media screen and (max-width: 996px) {
 
     .wrapper {
