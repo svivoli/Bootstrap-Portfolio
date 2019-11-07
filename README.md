@@ -23,8 +23,9 @@ Difficulties
 * Differences in CSS across the different media queries, not always perfect crossovers
 * Styling the hamburger toggler and the header for tablets and phones
 * Making sure I had all the proper tags in place to ensure my code would work! (meta tags, script tags, etc.)
+* Page would look one way in devtools when but another way when testing on my phone
 
-Overall, this project was much more difficult than the first. At first, my media queries would not work at all, and I was getting very frustrated, until I went to Sky and he pointed out that I needed the proper meta tag in place to make them function. (Thanks, Sky). I also realised far into the project that I had not used the bootstrap jumbotron, and although I would have liked to experiment with that I decided I didn't want to sacrifice my work to add it when I was so close to finishing. I'll have to play around with that now that I'm finished and make a second version of the project. I am pleased with how the hamburger toggler/dropdown menu turned out, as those are a common and interactive mobile tool. Looking forward to the next challenge!
+Overall, this project was much more difficult than the first. At first, my media queries would not work at all, until I went to Sky and he pointed out that I needed the proper meta tag in place to make them function (thanks, Sky).  I am pleased with how the hamburger toggler/dropdown menu turned out, as those are a common and interactive mobile tool. This seemed like a very relevant project in today's world, since so much user browsing takes place on phones and tablets. Having a sleek and functional design both on a desktop and on smaller devices is absolutely critical. Looking forward to the next challenge!
 
 -- Sarah Vivoli
 
