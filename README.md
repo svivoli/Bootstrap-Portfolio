@@ -2,7 +2,7 @@
 
 ### Links to Project
 
-[Live Link](https://svivoli.github.io/Bootstrap-Portfolio/)
+[Live Link](https://svivoli.github.io/Bootstrap-Portfolio/)  
 [GitHub Repository](https://github.com/svivoli/Bootstrap-Portfolio)
 
 ### Description
