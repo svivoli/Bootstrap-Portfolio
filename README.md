@@ -1,5 +1,10 @@
 # Portfolio + Bootstrap
 
+### Links to Project
+
+![Live Link](https://svivoli.github.io/Bootstrap-Portfolio/)
+![GitHub Repository](https://github.com/svivoli/Bootstrap-Portfolio)
+
 ### Description
 
 The purpose of this project was to take the portfolio that I created for homework 1 and make it more responsive, utilizing tools from bootstrap. In doing so I was able to give my portfolio page a smoother interface across multiple platforms, making it more mobile friendly.
